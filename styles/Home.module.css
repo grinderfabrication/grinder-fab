@@ -107,6 +107,105 @@
 .logo {
   position: relative;
 }
+
+
+/* New code here */
+
+
+.navBar {
+  height: 60px;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutContact {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.mainLogo {
+  margin-left: -5%;
+}
+
+.aboutContainer {
+  width: 100%;
+  height: 2200px;
+  display: flex;
+  justify-content: center;
+  
+  border: solid 1px purple;
+
+}
+.aboutGroup {
+  margin-top: 50px;
+  
+}
+
+.aboutGall {
+  border: solid 1px orange;
+  max-width: 960px;
+  /* display: flex;
+  flex-flow: row; */
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.aboutPara {
+  width: 400px;
+  color: #F8E43F;
+  font-family: 'Kurale', serif;
+  margin: 0px;
+}
+
+.devonSub {
+  display: flex;
+  justify-content: space-between;
+  /* border: solid 1px greenyellow; */
+  width: 100%;
+}
+
+/* .devonImage {
+
+} */
+
+.servicesSec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: solid 1px white;
+  width: 100%;
+}
+
+.contactContainer {
+  background-color: #333333;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: solid 1px purple;
+}
+
+.contactGroup {
+  margin-top: 50px;
+
+}
+
+.contactGall {
+  max-width: 960px;
+  /* display: flex;
+  flex-flow: row; */
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.spaceOut {
+  margin-left: 200px;
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
